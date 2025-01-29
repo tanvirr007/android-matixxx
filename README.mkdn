@@ -34,8 +34,16 @@ TARGET_INCLUDE_NEXUS := true
 ```
 
 ### To Add Maintainers name 
-```
-# Add in your overlay (overlay/packages/apps/Settings/res/values/cr_strings.xml)
-<string name="matrixx_maintainer">Diddy</string>
+- Add in your overlay:
 
+```
+overlay/packages/apps/Settings/res/values/cr_strings.xml
+```
+---
+```
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Project Matrixx 2025 -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="matrixx_maintainer">Your Name</string>
+</resources>
 ```
